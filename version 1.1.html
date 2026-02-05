@@ -2,20 +2,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Teoría del Arte - Perspectivas Clásicas</title>
+    <title>Evolución de la Teoría del Arte: De la Prehistoria a la IA</title>
     <style>
         :root {
             --bg-color: #f4f7f6;
             --text-color: #333;
-            --accent-color: #2c3e50; /* Color elegante y profesional */
+            --accent-color: #2c3e50;
             --highlight: #e67e22;
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.8;
             color: var(--text-color);
-            background-color: var(--bg-color); /* Cambio visible de fondo */
-            max-width: 900px;
+            background-color: var(--bg-color);
+            max-width: 1000px;
             margin: 0 auto;
             padding: 40px;
         }
@@ -23,6 +23,17 @@
             border-bottom: 4px solid var(--highlight);
             margin-bottom: 30px;
             text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .timeline-info {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 5px solid var(--accent-color);
+            font-size: 0.95rem;
         }
         section {
             background: white;
@@ -32,28 +43,71 @@
             margin-bottom: 20px;
         }
         h2 { color: var(--accent-color); border-left: 5px solid var(--highlight); padding-left: 15px; }
-        .quote { font-style: italic; color: #555; background: #f9f9f9; padding: 15px; border-radius: 5px; }
+        .era { font-weight: bold; color: var(--highlight); text-transform: uppercase; font-size: 0.8rem; }
+        .quote { font-style: italic; color: #555; background: #f9f9f9; padding: 15px; border-radius: 5px; margin-top: 10px; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Fundamentos de la Teoría del Arte</h1>
+        <h1>Historia Crítica del Arte</h1>
+        <p>Un recorrido técnico por la evolución estética y sus pensadores.</p>
     </header>
 
+    <div class="timeline-info">
+        <strong>Resumen Histórico:</strong> El arte comenzó como una herramienta ritual y mágica en las cuevas (Prehistoria), evolucionó hacia la búsqueda de la proporción ideal (Edad Antigua), se centró en la divinidad (Edad Media) y recuperó el humanismo en el Renacimiento. Tras la ruptura de las vanguardias, hoy enfrentamos la desmaterialización del objeto artístico en la era digital.
+    </div>
+
     <section>
-        <h2>La Mímesis según Aristóteles</h2>
-        <p>Aristóteles sostiene que el arte es una imitación de la naturaleza, pero no una copia servil, sino una recreación que revela verdades universales.</p>
-        <p class="quote">"El arte completa lo que la naturaleza no puede terminar." - Aristóteles.</p>
+        <span class="era">Edad Antigua</span>
+        <h2>1. Platón y la Condena de la Imagen</h2>
+        <p>Para Platón, el arte es una "mímesis de la mímesis". Al ser una copia del mundo sensible (que ya es copia de las Ideas), el arte nos aleja de la verdad absoluta.</p>
     </section>
 
     <section>
-        <h2>La Estética de Immanuel Kant</h2>
-        <p>En su 'Crítica del Juicio', Kant introduce el concepto de <strong>"finalidad sin fin"</strong>, argumentando que la belleza se percibe de forma desinteresada.</p>
+        <span class="era">Renacimiento</span>
+        <h2>2. Leon Battista Alberti</h2>
+        <p>Arquitecto y tratadista que definió la belleza como la armonía entre todas las partes. Introdujo la perspectiva científica para dar orden lógico a la visión del mundo.</p>
     </section>
 
     <section>
-        <h2>El Aura en Walter Benjamin</h2>
-        <p>Benjamin analiza cómo la reproductibilidad técnica (como la fotografía o el cine) afecta la 'unicidad' o el 'aura' de la obra de arte original.</p>
+        <span class="era">Ilustración</span>
+        <h2>3. Immanuel Kant</h2>
+        <p>Estableció que el juicio estético es "desinteresado". Lo bello no tiene una utilidad práctica; place por su mera forma y estructura armónica.</p>
     </section>
+
+    <section>
+        <span class="era">Siglo XIX</span>
+        <h2>4. G.W.F. Hegel</h2>
+        <p>Planteó el "fin del arte". No porque el arte deje de existir, sino porque ya no es el medio principal para que el espíritu humano comprenda la verdad suprema.</p>
+    </section>
+
+    <section>
+        <span class="era">Siglo XIX</span>
+        <h2>5. León Tolstói</h2>
+        <p>Defendió que el arte debe ser contagioso. Su función no es el placer, sino la transmisión de sentimientos fraternales entre los hombres.</p>
+    </section>
+
+    <section>
+        <span class="era">Siglo XX</span>
+        <h2>6. Walter Benjamin</h2>
+        <p>Analizó cómo la reproducción técnica (fotografía) destruye el "aura" o la autenticidad de la obra única en favor del acceso masivo.</p>
+    </section>
+
+    <section>
+        <span class="era">Siglo XX - Posmodernidad</span>
+        <h2>7. Arthur Danto</h2>
+        <p>Tras las Brillo Boxes de Warhol, Danto declaró que "cualquier cosa puede ser arte". El arte ahora depende de una interpretación teórica previa (el mundo del arte).</p>
+    </section>
+
+    <section>
+        <span class="era">Siglo XXI - Digital</span>
+        <h2>8. Lev Manovich</h2>
+        <p>Teórico de los nuevos medios que analiza cómo el software y los algoritmos (como la IA) están redefiniendo la autoría y la estética en la cultura de datos.</p>
+        <div class="quote">"En la era del software, la interfaz es el mensaje."</div>
+    </section>
+
+    <footer>
+        <p style="text-align: center; color: #888;">Proyecto Final de Git y GitHub - Sesión 2</p>
+    </footer>
 </body>
 </html>
